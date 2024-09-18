@@ -9,6 +9,7 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -34,8 +35,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 </ul>
             </div>
@@ -57,11 +59,23 @@
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/sergio-virgenl/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/sergiov11"><i class="fab fa-github"></i></a>
+                        <!-- <a class="social-icon" href="https://github.com/sergiov11"><i class="fa-regular fa-file"></i></a> -->
+                        
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Experience-->
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<!-- Initialize Fancybox -->
+<script>
+    $(document).ready(function() {
+        $('[data-fancybox]').fancybox();
+    });
+</script>
+            <!-- Experience
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
@@ -104,7 +118,8 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Education-->
+            -->
+            <!-- Education
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
@@ -128,12 +143,13 @@
                 </div>
             </section>
             <hr class="m-0" />
+            -->
             <!-- Projects-->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
                     <div class="project mb-5">
-                        <h3 class="mb-0">InterConnection Dashboard</h3>
+                        <h3 class="mb-0">InterConnection Dashboard | Python, SQL, JavaScript, HTML, QGIS</h3>
                         <a href="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/Dashboard.png" data-fancybox="project1" data-caption="Project 1">
                             <img class="project-image" src="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/Dashboard.png" alt="Project 1" style="width: 600px; height: auto;">
                         </a>
@@ -142,7 +158,7 @@
                         <p>Our sponsor, InterConnection, is a dynamic nonprofit organization based in Seattle, Washington, committed to bridging the digital divide and promoting environmental responsibility. Our capstone project aims to align more closely with digital equity goals by leveraging existing census data to identify neighborhoods in Seattle with the greatest need for InterConnection's services. We are enhancing the available data by combining various variables to provide new insights. Our approach hopes to enable quick access to critical information, highlighting areas where digital equity can be improved.</p>       
                     </div>
                     <div class="project mb-5">
-                        <h3 class="mb-0">Climate Change Data Visualization Website</h3>
+                        <h3 class="mb-0">Climate Change Data Visualization Website | R, Shiny</h3>
                         <a href="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/climatechange.png" data-fancybox="project1" data-caption="Project 2">
                             <img class="project-image" src="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/climatechange.png" alt="Project 2" style="width: 600px; height: auto;">
                         </a>
@@ -151,7 +167,7 @@
                         <p>Analyzing and playing around with this data was not only fun but also a really good learning experience. It taught me a lot more about just how much people from different countries contribute to CO2 emissions and for this reason, it is also information that I want to share with others. Having information like this is important in order for us to truly understand the impact we are having on our planet and what this could mean for not only our future but for the future of generations to come. Because I believe that a big part of making change is informing others about what is wrong in the first place and what we can try and do to fix it together.</p>
                     </div>
                     <div class="project mb-5">
-                        <h3 class="mb-0">Revamped Carnival Cruise App</h3>
+                        <h3 class="mb-0">Revamped Carnival Cruise App | Figma, FlowMapp</h3>
                         <a href="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/Carnival.png" data-fancybox="project1" data-caption="Project 3">
                             <img class="project-image" src="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/Carnival.png" alt="Project 3" style="width: 400px; height: auto;">
                         </a>
@@ -161,7 +177,7 @@
                         <p>As part of a team of five, I collaborated on overhauling the UI of the Carnival Cruise companion app, a project aimed at significantly enhancing user engagement and satisfaction. We conducted extensive research, including in-depth competitor analysis and comprehensive user interviews, to meticulously identify areas needing enhancement and refinement. These insights were crucial in informing our development of a comprehensive, fully interactive prototype. Over a dedicated three-week timeframe, we continuously refined this prototype, incorporating iterative feedback and ensuring that every detail contributed to an optimal user experience.</p>
                     </div>
                     <div class="project mb-5">
-                        <h3 class="mb-0">Tracking the Journey: LOTR Checkouts at Seattle Public Librarye</h3>
+                        <h3 class="mb-0">Tracking the Journey: LOTR Checkouts at Seattle Public Librarye | R, HTML</h3>
                         <a href="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/lotr.png" data-fancybox="project1" data-caption="Project 4">
                             <img class="project-image" src="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/lotr.png" alt="Project 4" style="width: 600px; height: auto;">
                         </a>
@@ -170,7 +186,7 @@
                         <p>For this project, I chose to analyze data from the Seattle Public Library related to J.R.R. Tolkien and his popular book series, "The Lord of the Rings." This analysis provided fascinating insights into the borrowing patterns of these beloved books. I discovered that "The Lord of the Rings: The Fellowship of the Ring" had the most checkouts at the Seattle Public Library, with audiobooks being the most commonly borrowed format. Additionally, 2022 was the year with the highest number of checkouts, averaging 47.87 books per month. An interesting random fact I uncovered was that 2023 had the fewest eBook checkouts. Overall, this analysis highlights intriguing trends in the popularity of Tolkien's work within the Seattle community.</p>
                     </div>
                     <div class="project mb-5">
-                        <h3 class="mb-0">Analyzing COVID-19 Rates & Cases Across the U.S. in 2020</h3>
+                        <h3 class="mb-0">Analyzing COVID-19 Rates & Cases Across the U.S. in 2020 | Python, Mapbox</h3>
                         <a href="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/covid.png" data-fancybox="project1" data-caption="Project 4">
                             <img class="project-image" src="https://raw.githubusercontent.com/sergiov11/Personal-Website/main/Pages/imgs/covid.png" alt="Project 4" style="width: 600px; height: auto;">
                         </a>
